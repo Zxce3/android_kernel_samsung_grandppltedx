@@ -105,7 +105,7 @@ obj-y	+= ssw/
 endif
 endif
 
-obj-$(CONFIG_MTK_COMBO) += connectivity/
+#obj-$(CONFIG_MTK_COMBO) += connectivity/
 obj-$(CONFIG_MTK_BTIF) += btif/
 obj-$(CONFIG_MTK_CONN_MD) += conn_md/
 
@@ -139,7 +139,7 @@ obj-$(CONFIG_CUSTOM_KERNEL_CHARGEPUMP) += chargepump/
 
 obj-$(CONFIG_MTK_MULTIBRIDGE_SUPPORT) += multibridge/
 obj-$(CONFIG_MEDIATEK_SOLUTION)	+= aee/
-obj-$(CONFIG_MTK_FMRADIO) += fmradio/
+#obj-$(CONFIG_MTK_FMRADIO) += fmradio/
 obj-$(CONFIG_MTK_ATF_LOGGER)	+= atf_log/
 obj-$(CONFIG_MTK_MLOG) += mlog/
 obj-$(CONFIG_MTK_EMI_BWL)	+= emi_bwl/
